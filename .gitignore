@@ -1,0 +1,4 @@
+node_modules/
+*.jsonl
+upload-log.jsonl
+.env

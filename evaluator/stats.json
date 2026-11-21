@@ -1,0 +1,16 @@
+{
+ "rows": 145,
+ "monthly": 115,
+ "quarterly": 30,
+ "verdict_flips": 88,
+ "wrong_answer_too_high": 55,
+ "wrong_answer_too_low": 90,
+ "baselines_right_of_145": {
+  "longer answer wins": 76,
+  "higher uptime wins": 90,
+  "lower uptime wins": 55,
+  "\"SLA met\" wins": 59,
+  "\"SLA missed\" wins": 29
+ },
+ "hand_checked": 6
+}

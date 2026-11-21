@@ -1,0 +1,243 @@
+{
+ "about": "Vendor-months whose covered outage minutes were counted by hand from the vendor status pages before the engine was run.",
+ "items": [
+  {
+   "vendor": "Mapbox",
+   "service": "Mapbox APIs",
+   "period": "2026-09",
+   "ask": {
+    "service": "mapbox apis",
+    "period": "2026-09-01 to 2026-09-30"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Mailgun",
+   "service": "API, SMTP and Outbound Delivery",
+   "period": "2026-07",
+   "ask": {
+    "service": "mailgun",
+    "period": "2026-07-01 to 2026-07-31"
+   },
+   "sla_target_pct": 99.99,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "DigitalOcean",
+   "service": "CPU Droplets",
+   "period": "2026-05",
+   "ask": {
+    "service": "digitalocean",
+    "period": "2026-05-01 to 2026-05-31"
+   },
+   "sla_target_pct": 99.99,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Sanity",
+   "service": "Sanity Service",
+   "period": "2026-05",
+   "ask": {
+    "service": "sanity service",
+    "period": "2026-05-01 to 2026-05-31"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Jira",
+   "service": "Jira",
+   "period": "2026-10",
+   "ask": {
+    "service": "atlassian jira software",
+    "period": "2026-10-01 to 2026-10-31"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Sanity",
+   "service": "Sanity Service",
+   "period": "2026-10",
+   "ask": {
+    "service": "sanity service",
+    "period": "2026-10-01 to 2026-10-31"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 339,
+   "uptime_pct": 99.2406,
+   "compliant": false,
+   "credit_owed": true
+  },
+  {
+   "vendor": "Prisma",
+   "service": "Prisma Covered Services",
+   "period": "2026-09",
+   "ask": {
+    "service": "prisma covered services",
+    "period": "2026-09-01 to 2026-09-30"
+   },
+   "sla_target_pct": 99.95,
+   "outage_minutes_hand_count": 108,
+   "uptime_pct": 99.75,
+   "compliant": false,
+   "credit_owed": true
+  },
+  {
+   "vendor": "Buildkite",
+   "service": "Platform and Pipelines",
+   "period": "2026-08",
+   "ask": {
+    "service": "buildkite",
+    "period": "2026-08-01 to 2026-08-31"
+   },
+   "sla_target_pct": 99.95,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Buildkite",
+   "service": "Hosted Agents",
+   "period": "2026-08",
+   "ask": {
+    "service": "buildkite",
+    "period": "2026-08-01 to 2026-08-31"
+   },
+   "sla_target_pct": 99.5,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Jira Service Management",
+   "service": "Jira Service Management",
+   "period": "2026-10",
+   "ask": {
+    "service": "atlassian jira service management",
+    "period": "2026-10-01 to 2026-10-31"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Mailgun",
+   "service": "API, SMTP and Outbound Delivery",
+   "period": "2026-06",
+   "ask": {
+    "service": "mailgun",
+    "period": "2026-06-01 to 2026-06-30"
+   },
+   "sla_target_pct": 99.99,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Twilio",
+   "service": "Twilio Services APIs",
+   "period": "2026-10",
+   "ask": {
+    "service": "twilio services apis",
+    "period": "2026-10-01 to 2026-10-31"
+   },
+   "sla_target_pct": 99.95,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Confluence",
+   "service": "Confluence",
+   "period": "2026-10",
+   "ask": {
+    "service": "confluence",
+    "period": "2026-10-01 to 2026-10-31"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "Jira",
+   "service": "Jira",
+   "period": "2026-07",
+   "ask": {
+    "service": "atlassian jira software",
+    "period": "2026-07-01 to 2026-07-31"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 80,
+   "uptime_pct": 99.8208,
+   "compliant": false,
+   "credit_owed": true
+  },
+  {
+   "vendor": "Jira Service Management",
+   "service": "Jira Service Management",
+   "period": "2026-06",
+   "ask": {
+    "service": "atlassian jira service management",
+    "period": "2026-06-01 to 2026-06-30"
+   },
+   "sla_target_pct": 99.9,
+   "outage_minutes_hand_count": 369,
+   "uptime_pct": 99.1458,
+   "compliant": false,
+   "credit_owed": true
+  },
+  {
+   "vendor": "Mailgun",
+   "service": "API, SMTP and Outbound Delivery",
+   "period": "2026-10",
+   "ask": {
+    "service": "mailgun",
+    "period": "2026-10-01 to 2026-10-31"
+   },
+   "sla_target_pct": 99.99,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  },
+  {
+   "vendor": "DigitalOcean",
+   "service": "CPU Droplets",
+   "period": "2026-08",
+   "ask": {
+    "service": "digitalocean",
+    "period": "2026-08-01 to 2026-08-31"
+   },
+   "sla_target_pct": 99.99,
+   "outage_minutes_hand_count": 0,
+   "uptime_pct": 100,
+   "compliant": true,
+   "credit_owed": false
+  }
+ ]
+}

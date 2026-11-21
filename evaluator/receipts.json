@@ -1,0 +1,1211 @@
+{
+ "intent_id": "SLA_COMPLIANCE_GENERAL",
+ "network": "Telegraph testnet (devnode, Ethereum Sepolia chain id 11155111)",
+ "submitter": "0x2d87B538e3beD8C9c44Df502B3a816D76da09A31",
+ "uploads": [
+  {
+   "at": "2026-11-21T16:08:02.450Z",
+   "rows": 115,
+   "body_sha256": "411db396d0f1e7de38e1c8dec446e32ab868d39a9213a466775698d673daf79e",
+   "http_status": 200,
+   "node_response": {
+    "intent_id": "SLA_COMPLIANCE_GENERAL",
+    "submitter": "0x2d87b538e3bed8c9c44df502b3a816d76da09a31",
+    "signed": true,
+    "received": 115,
+    "accepted": 115,
+    "duplicate": 0,
+    "rejected": 0,
+    "curated": 115,
+    "state_counts": {
+     "admitted": 115,
+     "eligible": 199,
+     "quarantine": 321
+    }
+   }
+  },
+  {
+   "at": "2026-11-21T16:15:49.143Z",
+   "rows": 30,
+   "body_sha256": "197d1a6668dd08c1cb1c6ed82f3caaf1b49014fdd801093559d6f056b039ee62",
+   "http_status": 200,
+   "node_response": {
+    "intent_id": "SLA_COMPLIANCE_GENERAL",
+    "submitter": "0x2d87b538e3bed8c9c44df502b3a816d76da09a31",
+    "signed": true,
+    "received": 30,
+    "accepted": 30,
+    "duplicate": 0,
+    "rejected": 0,
+    "curated": 30,
+    "state_counts": {
+     "admitted": 145,
+     "eligible": 199,
+     "quarantine": 321
+    }
+   }
+  }
+ ],
+ "rows": [
+  {
+   "row_hash": "4c66b24a6aebedced606897be6739c6293464bf77fb2907ef0305e2a5cd33b86",
+   "case_id": "11438cb3b4cf1a75d09cd3d23b37e4ac016048ad3a8a8fe5b20beb3ff43ad7a2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.902225Z"
+  },
+  {
+   "row_hash": "7d449eeb36d620245b18878cbd072ce53c04f6936f0dc5d2642dbe4357e80729",
+   "case_id": "34f7e69d5c7895725116ae82babbce60d8911913aabca960cbb8b61b8c0a5391",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.900497Z"
+  },
+  {
+   "row_hash": "6dff672bc846c20c862698bb23d8c34aba521a0b9cc0539276f3be25fc1313c4",
+   "case_id": "a65593f2dda55817dbb7360a32b6659eb03d257601ddb9a4317f73e6409dbd0e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.899029Z"
+  },
+  {
+   "row_hash": "56bb2a8297f2014c9ca0c0c8a27ad56545d8c8cb4addec019bc8fbbe0a7d64a4",
+   "case_id": "51783766ffeed380c773ee394b7f3a84300d735ec58957e41eed9884826320e5",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.897434Z"
+  },
+  {
+   "row_hash": "5887f0d9e4431debc1721c42bdc16d85d94aabea3e88aaf468d82b818a24f134",
+   "case_id": "623c54f4d3e4b3cc52d3d35fccecc569863bed56080bcc9a4fadc427832baf78",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.896184Z"
+  },
+  {
+   "row_hash": "69ab2dd796af9ecd181eec47ea7793d350dfde8c01d69f905b2efaa5d0e3be32",
+   "case_id": "068a407d691d9030e7a19edd03abe6db3f623833e5cdafb00b0e7e2048901417",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.894719Z"
+  },
+  {
+   "row_hash": "2890d20f36cae4bf837e2ca9a31aa80283d20fdfd323a7d34e0db2b328ad514b",
+   "case_id": "b5038349f26bf022f314a098779ab8d8dc4472d7ba8607c37283cff45fbde81c",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.893165Z"
+  },
+  {
+   "row_hash": "672536278511546fad3668eace9f9b948b634b975a0f1518916554132d8974fc",
+   "case_id": "3e74d1e33db48f2170874ace8271b7d0365d909b8f798815714f8631df73c1ce",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.89152Z"
+  },
+  {
+   "row_hash": "fd9366bef154a9ba8fe0a636b86d65701ad309e5a1f17c57671e3bf07cab02af",
+   "case_id": "3700887e7bfbfe8871041c8b0bfa9883ae7403b80329d531f99752e0a2e2092e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.889923Z"
+  },
+  {
+   "row_hash": "8b344c7dde8252a0792767e4396b8359291935e6f132f4688b0f6bf49fb283a5",
+   "case_id": "ab75f9c1dac7908df4fc6f4df8cfe4963a8d587367ae1bf16cef67eae317ae53",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.888347Z"
+  },
+  {
+   "row_hash": "fc653d75ffb9863382f4a108f2a8b85652f1f2d79522f8a5fb49cd1feb9d9806",
+   "case_id": "92699ff2cf3b01c827c804765e6275979a859caa51d45d527e367657b7a45e3e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.886721Z"
+  },
+  {
+   "row_hash": "f5ff8afa00feb49cd79532b721c5761ba4eee0fa9cf220039798d52b2aeadb2b",
+   "case_id": "822d7cf84a9aee968df50c8a217b7ea4ba7a4bbdbd46c5087eeeb2e9bcdb350e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.885097Z"
+  },
+  {
+   "row_hash": "01b21602f4ad9f7bf6e33f8254f392b8dc3f2447dd718b4cc61fb5a41d7c8c16",
+   "case_id": "4dbb554c4e75f4747724c114360d90a4be95e9a9a14cd7a90337b55bbe65a5ed",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.883781Z"
+  },
+  {
+   "row_hash": "1237452ff50aff03f74e4f6469d3f77a95400135e3bcbda9013b7baef6b93734",
+   "case_id": "831eadff116d6cb83fe103fe5a75d2f9fb1f29eb8936c48361aafcf1035aa85c",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.881979Z"
+  },
+  {
+   "row_hash": "4a6c33262d7386a555a884b46c03e2ae9b3cef315826259261d5129ae0f1ecdd",
+   "case_id": "cbcdf561c698e7ef8e9775cfcc0d763a677947e2f6815b981b29c0d7b47ccf34",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.880339Z"
+  },
+  {
+   "row_hash": "8544933c966548de4f93e6e43f526699558208793a96579c899c9c724ecc10fe",
+   "case_id": "87dcd73f2f904323f92c7c9033d379f2fb9617c5a3d7e32a9c9f30591853bb90",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.87857Z"
+  },
+  {
+   "row_hash": "8909d7ac2614c99dc0c2e1d5f0b7f65528be9b5e8e5c119f2b3c64ce9f216514",
+   "case_id": "b17be91ace55c1d68b8cd9dbadb2587edf96711557cd7439d9682890ef2f7bc1",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.876632Z"
+  },
+  {
+   "row_hash": "8db1f625af340b358021586afda88ec56dc1accef740732a12d87ae3d2378f4a",
+   "case_id": "8c51178e302976607a5da9fbafdf42b62eab77cb339e7ccf2045c26d0980ad80",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.874921Z"
+  },
+  {
+   "row_hash": "929eb6613f7260abd3397fa8fb32accba50b4c0783358e3a09b142f9f3476183",
+   "case_id": "29521ffa8071c886b1c25b9af9657340848d7376c57e8ea13bc42c4aed1e40d8",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.873421Z"
+  },
+  {
+   "row_hash": "d5296c8e46a4bbafe952cf6ca2e3c7510718e9bd6263f703f0b67e9b4d0ae680",
+   "case_id": "8620cafc3ac7e43abd7a808d205742103851a2b01501d2cff29a9d3cecaf4433",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.871554Z"
+  },
+  {
+   "row_hash": "a01eaf94b366a4b0159eac95f8f04ffd6867dcc3bd1a8107afe15370ed072032",
+   "case_id": "c0b5e72f8651016ea0c6049efd0332fe90e8233990617c7e0aee959976556c65",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.870148Z"
+  },
+  {
+   "row_hash": "373c5e09557d11a873c51ee64c44b44170eedb5fc65808ac57c0c224b288b949",
+   "case_id": "daffb4f2600276dcffb9d7aecc4d4880cc3781bad1f6f89a9d39cf1ecb63a950",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.868628Z"
+  },
+  {
+   "row_hash": "70ebbe0ca8e1db1a13110a76b6e24493113fd93ba0fad656898a25e8ab7c311d",
+   "case_id": "c9ce39ef34392b155617c3e901a1c9702f5363926847e0f70cfb4da6a599b797",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.867206Z"
+  },
+  {
+   "row_hash": "5218f40e7dd8167ce4a8dd891869031a654e3c0ae5755f25669dc72babfd7909",
+   "case_id": "27a059457a3f69cd80bf8ba52ebe2b6ee0f2b8f3071d85c813f464b5284d79af",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.86572Z"
+  },
+  {
+   "row_hash": "8529b6fe5f2b847b4f94a6d6a4a6466efe8ab948a3346c5ef8929aa78949e897",
+   "case_id": "50fa73ab25acaa57dd764e9c8397d2cfde7eb98f8bc6c3f063e26ce964af163e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.864381Z"
+  },
+  {
+   "row_hash": "697232f2d7e2e0158a81c75bac6c1c754ac25ce0afff854e29a56523206fd35b",
+   "case_id": "90e6b4b0ce290f9b277a749644337d7eab28b334e11429790b2d70dcb370e4a6",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.862665Z"
+  },
+  {
+   "row_hash": "8d92a093ccbacf53bd3221b59d265911a1006967519d8bca3393b1626fe93ae6",
+   "case_id": "4515b353d9e0c45bd990670459fe83ce648cd90cc2acbbaa34f27560d2897da6",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.861231Z"
+  },
+  {
+   "row_hash": "953400e4182988db23f614b8e0f443f73d31b5f2147ca6154f9390e81d6c93be",
+   "case_id": "0d0d3a36ca52d6fc03cb275852239f2f7da85fe46fd46a1174cfca0f4cabe986",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.85972Z"
+  },
+  {
+   "row_hash": "2c5813671b2506287c39c4b23535d64a111d82f25c5e15feb5e545eea072e7c1",
+   "case_id": "63a116ed35e9e12afae8039e44244c81c202939b1f90d15d7adac5697ab7c6e5",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.858075Z"
+  },
+  {
+   "row_hash": "1b3cd9940dd911070146e94816fe6cf3f7b370d93fcfd2e6efbdf768dfa4c75d",
+   "case_id": "dacc5684e3a37c69760c85adfc144c6ecd24b86c85868cbec447a4ae55b99890",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:15:48.856408Z"
+  },
+  {
+   "row_hash": "589b036e93f9cc16ed4725bc3b2d1f28d9d297d220c6e7b7062de28067fb49c5",
+   "case_id": "0dfe4139e738a909d4d8b6cd47a13572d27f0ef61012e3fbfa87aee2ca2c0bb1",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.195884Z"
+  },
+  {
+   "row_hash": "6a1e6b155a9918d88d1b96ceaa237b4390f400e8ef7aae9747485f048a0e484e",
+   "case_id": "ed537ac6d75bb944595e876b439231e57f636f47a0c0fecc02bd38537614ac55",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.194454Z"
+  },
+  {
+   "row_hash": "2032217a9f8f6c2deafbfca1ecbc3011fa6f5566c98c320089e2781f55d7a252",
+   "case_id": "e7f701eadd941adb03637afd29934388e040cfde26694dfd28f8a5da83821e55",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.193249Z"
+  },
+  {
+   "row_hash": "9d4e1d40e6fb78a38c50e2536aa64d8a24bc418740b01c0747cae601e407435d",
+   "case_id": "15104714f67080121b358d46c06c5a58dd5a99f068ffb4a405c20c9d07b774f0",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.191845Z"
+  },
+  {
+   "row_hash": "c6e2a020db11dc184df83b954e1b347176800174413917fb688de774fe61b1fb",
+   "case_id": "560657afb91fc7b4d6c2b9128e05febfa937be72d3444297a1b7a262a43ed5f2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.190527Z"
+  },
+  {
+   "row_hash": "9100da957bff9fce6f72e994d098878d9631155181e07648d457e8e073025f0d",
+   "case_id": "15c0bfc43fb68bf37546ad7660d3cd789a153703d70801c184ed1421b7eff96e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.188995Z"
+  },
+  {
+   "row_hash": "09ac68eb62b79c5fdb25202edd01fdf0c37f1d2123df8401dcae816733450864",
+   "case_id": "5c89219bd17018b63cac94d78472b3de87e46f8f856f8fe78f9d90184e2541e1",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.187596Z"
+  },
+  {
+   "row_hash": "f6197ad3143ce0efd15fc78f4d6f68e1dac9f99c7f1641b954746c43ace2b8fa",
+   "case_id": "b86141122c52f657f5201bef33fd28350958fcfb8cac212282b701c7946bf9bc",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.185919Z"
+  },
+  {
+   "row_hash": "de0f217f41a5eec0dcbe538c8fa4c29db0e84f322411d38c21c5f5fc4d33132e",
+   "case_id": "2468e82782ed19777a524e17ffc58d9858ef79067a45b781cf6d16d2d6219502",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.184302Z"
+  },
+  {
+   "row_hash": "c073f297e167686a538f42d3764562d57d15953372f3c7979a24db8d1f557c36",
+   "case_id": "892ceb81b4d24c9fc15500fcdbfb2cabc9cd405f17cdc3cf32daef9040c61210",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.183032Z"
+  },
+  {
+   "row_hash": "9da59d094aa3d3a7d88155c46c9c121d35bf8436d96a13e6d24c640358795635",
+   "case_id": "4f39d965c2ebf0153aa2da822178b17978494ef154035bfbfaf1878a87d5a67f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.181404Z"
+  },
+  {
+   "row_hash": "42768d842e646e06393e42eec2636a50faf8871d3225c8571f444df705a2f7d1",
+   "case_id": "9022dd50adfeb890ee40874ffc7760a12593476820416ab309d9a5002a2308e9",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.179477Z"
+  },
+  {
+   "row_hash": "2f34555bcef2f0e755da0ffe4a530152bebcff9f77f37b42bcf1ea01a8358d13",
+   "case_id": "c447ef90bc7db8797e5ce65a6a98c58ba33789ef9b1ef73d3c67c4193a5c6f35",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.177787Z"
+  },
+  {
+   "row_hash": "c92ffa3cf0bf2081dea457a800ba8b8b4c1a10dcf4bd1b82af4b3f746e522d92",
+   "case_id": "77ceb181fc0169366a39024f1db5458a9d2ff74bc89c0a1e720fa6ff12526a4a",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.176139Z"
+  },
+  {
+   "row_hash": "1637b56ec83465fb6c8b3e336e5bf5a566d3491a215fc0ce3af765129ccf32fa",
+   "case_id": "25999f2486930accc90041ad23c818b19c319bd54d7451ce3e14255cc073d1ab",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.174497Z"
+  },
+  {
+   "row_hash": "dc35498bbde2d958d9c39f7ccaa05d055883f8505543542a37838d07a7b52ec1",
+   "case_id": "ee4be145a3f960b0c9df0f1eda56044bba5fa122923a37917075ce9845ced165",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.173059Z"
+  },
+  {
+   "row_hash": "0603966c40bdd2cc1ef0cf8ef187284f0ed8e676a8613620b364da4276b9b83d",
+   "case_id": "70246b9a0f6cef5b3167ec863ac5323e80a653c9348a5513f828882f1220e6fa",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.171528Z"
+  },
+  {
+   "row_hash": "335fec2ab4a1e3731a198ffd8f447ce100aa755c841f11cc8017d40794048e04",
+   "case_id": "2bb4ab148c51e653da8786faf951478475f00cadef1f58eff9b4276567224b7b",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.169901Z"
+  },
+  {
+   "row_hash": "58c6f81d6df5896185dd53fa7c53ef31de725194bc0e82e854697705f39fde19",
+   "case_id": "da321d291917bf78d68e09aa1cb6488bc420521f52c2c7f4855c8d6462d048ce",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.168011Z"
+  },
+  {
+   "row_hash": "069aeda0bd115fee2010bbad49cafd6b4a9d3c9d6200b5993d5c9c378a8e5e83",
+   "case_id": "4a258bd0fb58d14f775c4ab92482bab9732c1b1fe4dcdfd64fcd912b5f26888e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.166511Z"
+  },
+  {
+   "row_hash": "48819ac1adea753645bcf942d6cae5803081d99c8b2f92f3adcc80917d16f078",
+   "case_id": "e45aa6397a91f3ee172327e945f762480eaf6e6bf204107a33ddbfd8c29251bf",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.165405Z"
+  },
+  {
+   "row_hash": "6dc2cf42de1997bab7981c4bf26836ec65d584b5fce38cdeac5ffd508e66d891",
+   "case_id": "0055ca7bdf7ccc8b2603b5ce9e9093afb65741356ad01c07723ef97262fe0f48",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.16419Z"
+  },
+  {
+   "row_hash": "3491abf004f2be65da7267106e0cc5a1240881ac75179644cd9f754b0cee97c9",
+   "case_id": "e51ba7e1f1f3122dd697cd68142d0d6c475dfd09563fe865edbde5bfabb828a1",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.16278Z"
+  },
+  {
+   "row_hash": "dc1b3920c8b109012d61b7114485bd837391ef6adc2fec6ef306d279903ef53a",
+   "case_id": "08e7cc06d89ab632fbbea2de1fe5af4a260a80726f191a0e7fe06407787caf1d",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.161454Z"
+  },
+  {
+   "row_hash": "d7f0ce241bf50a29c94bc324d44f6a69ab0400bd8b882887eb442b08d4e43b7f",
+   "case_id": "e56fbc4c0e8785a35f980f5bf5d5a70ff55892d1ce93e7a69e0e737917e749d2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.160186Z"
+  },
+  {
+   "row_hash": "864bc6635491965fc690791359357a222465c7b19d3aab3bde2db44b39787dca",
+   "case_id": "0970e90d9213c9807ee963485e12a818aa0b2de4f77f97e65abec8696a43b5c1",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.158864Z"
+  },
+  {
+   "row_hash": "b10000e2cdb9faee87ba674f0bf0f6cd41954a29630ef52bffd5a98f3635bc1b",
+   "case_id": "b4d37c2ad0c7a0e7a96d8243afd8979edf7a2630ccb2755059ab6a29bd34f76f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.157516Z"
+  },
+  {
+   "row_hash": "278cb8383455e8a9ee6430d78ce31ec3d6fcfa17e5f261ecdb2d91d8eab6c9f4",
+   "case_id": "147fc4580b05b758bf2d686d2e97fe72304d78790f86b0753167142bc6020ac3",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.156289Z"
+  },
+  {
+   "row_hash": "53e672aaac638e35831127e3b5fcf3524a0fe2648875729137d647b3c1f11d41",
+   "case_id": "952fdec3b9ac10b46dbd231fe4b94d838bfd0f6350344e3996adde325870758f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.154982Z"
+  },
+  {
+   "row_hash": "199e76ad0ca1c3d7aa3a99dd6d8f8dcfb411c50150c21c33466a91daf0995ad2",
+   "case_id": "a3867c46368feb4d4f8d96e990a63f82ade18a47b86c08683b1940ca4a186031",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.153721Z"
+  },
+  {
+   "row_hash": "02892bcf678309ddfb4dfa93f7a176031652ac797a82ff2a63fcd9ca550e862f",
+   "case_id": "8aa4b58e74fa77da50f570128e075926cfd751ed83236e6d41590a62839ddf75",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.152481Z"
+  },
+  {
+   "row_hash": "8beaa836820802a6788570a0f7e33905a5b38ee19f801c0a7eef327ce9b21dac",
+   "case_id": "a1b776ccc515dfc9d823f24fcc4166127a61dc566f6748745d5871eba0563fb5",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.151126Z"
+  },
+  {
+   "row_hash": "eca00e9fe54886647f34aa59f4024fcfeeac9f9349c026c98a7ab4e46969a15e",
+   "case_id": "dfc711ca3fa1e5552ab5cfe6f1ff810e94ff560633277d2bcef4440cb8eee2cd",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.150008Z"
+  },
+  {
+   "row_hash": "244d537de24c29981661b4f7d71374d4ab539b5bfcdd0bca3948d7820208a0d6",
+   "case_id": "127bc920ef9b25f831ad0957a25c3ddaedce65afd6238002bd9c96edbb58c406",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.148856Z"
+  },
+  {
+   "row_hash": "c152019854aa5af6784ce2d754b98baf605f32d93d6f17615865c41d4b7d1e29",
+   "case_id": "c54f3f95ab7b282664ada6b27bfe5f41ae61fd045606206bb1ecbfdd0f1f764e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.147704Z"
+  },
+  {
+   "row_hash": "6e6cff87501f6518ac2123c5e3ca3d69dad2699bab2ecb62aef14ca1d332dce5",
+   "case_id": "19eab6d0d259ecbae9f1da3c7aa9ac84c7c40dd3e786df0a71184a25cb2ec2e3",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.146129Z"
+  },
+  {
+   "row_hash": "626f37fee7356983b442c4618b14df757cf484db9ee04ba41f8a1e4ec1f65759",
+   "case_id": "b50d1beb10133bfff72927b31db07778c3cf87a4b21b81b4a0d9db0337df9c1b",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.144773Z"
+  },
+  {
+   "row_hash": "8926e0d5623f49038ad15dc7679e31c1f6597f4ba8994a2577d12d94d532411b",
+   "case_id": "a20ea8eb056e6141195aea57ed356ffc781c940a2b26ab37028faf27717b602f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.143475Z"
+  },
+  {
+   "row_hash": "650ac9fa0a82c5cb37b1f5eda1cfe358892dea9064315b1d550c4c0d70a57e66",
+   "case_id": "a9f129237b20e8be0ac72e619dc10a86f31812067d572a154d295aa9700b95c2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.142027Z"
+  },
+  {
+   "row_hash": "2c3bc0a698da539fd67ec7f58b097ad3b1744f7ea636049d628b2693df945b8b",
+   "case_id": "09c5a5e31291969bc4d869eb90634861a5b602e6331712fcb077d207430e9a4c",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.140753Z"
+  },
+  {
+   "row_hash": "869c7d4adf0d0234f1ada7771209367300a8e8f8cde13d9e2a80bee671f9c907",
+   "case_id": "fabf5b7611f957a4ba3b5c0802e176bd497a245c07f5f54bb485b1f626b01f48",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.138926Z"
+  },
+  {
+   "row_hash": "866d42a5a4de01791aa6ee9f713f56a1ad0deea2efb01c5486a7d296d7727ae2",
+   "case_id": "1dfa226691aa310e08a23d46d2f25aabd658ad44d84faecc4f6b0e10e3391f4d",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.137043Z"
+  },
+  {
+   "row_hash": "4210605dba58372c9bdf96f05391510ecb0b3b78f0ac0ffc4e24b2c55444ef5b",
+   "case_id": "eccb12b37ca0b96272169b0c016f4b81d0677c8c426b16575cff590710eb3ce5",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.135054Z"
+  },
+  {
+   "row_hash": "9e8fd10f59f1538f7dde6a888ff4e8ac8f6aa84d4977e8985dead9ca3871fb3a",
+   "case_id": "343d34a902561144041f5fd4a322ace97db1f46368f446aaf88b3388dd3e53e6",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.133205Z"
+  },
+  {
+   "row_hash": "3cc7e9a6230106698df7907d926a3228652e4235d68dce7de0b8ae54d727edac",
+   "case_id": "46b477140a1973487ccdbf61b599c8e336bfea7f7c4a65c50994b23d427da69e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.1311Z"
+  },
+  {
+   "row_hash": "c9ebe71d0cd2773b071f11cf12414b6ec2f1bd8d571adef579956bb5de6797c4",
+   "case_id": "0e50617fb8f6d13daf8fb227b258ded5cf7b4d2da6fe56e9cb0677e4d844a883",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.129464Z"
+  },
+  {
+   "row_hash": "4d7c3060e4341b182499ef7e44e8366c9e3764783eb45cc460fff52b4bff238d",
+   "case_id": "b268517feedd5c1ea6296a14bb5d3e40025f9c16d152b4113b42fc6f645dd363",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.128058Z"
+  },
+  {
+   "row_hash": "e8e7b3407ffe6f5021eb194e576d94768c136fdc9cff4fe150ffdb966b39782f",
+   "case_id": "d6039423ca3bbec5ca6d3f52473d5645e8ee7490e8ee3d1cb081941185507a1a",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.126748Z"
+  },
+  {
+   "row_hash": "af6c01cd1c08678a8db648d2cc56a2d9134be3bbe147c90bc80d71aeabed982c",
+   "case_id": "8389195b22d262677c42db78a82a25e6c83d81cb55dd5c05ed621814bc1b67ac",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.125328Z"
+  },
+  {
+   "row_hash": "36a68f6671f0b94ee357ad931edc582d83770500b80d2b4e8e89cac32ca0a49d",
+   "case_id": "3d0f9d594791e2183aa0fea543e28724cc4e37b1f349b4e167cec6f908fc858e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.123931Z"
+  },
+  {
+   "row_hash": "265e74105c72bcbd15c746b9391cfcbe87041d4b77e7c7eb1e4b06a47bc0e2f3",
+   "case_id": "2a79590b5d13150b1923c4865affb504586cdff97abc61c87eb99fec7570a473",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.122572Z"
+  },
+  {
+   "row_hash": "de7074c5856d7e193f34d2fc46adb59d3ed204dcee581d1e87535cfa88dff30f",
+   "case_id": "f32cd9017441940bf279322743ee7036a38f4e64c77602371d33bcf4ce1f5a02",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.121269Z"
+  },
+  {
+   "row_hash": "0b5ef78444571b243c8926a898f3429bbfd3938c2afc359d5d58d7422a636bc1",
+   "case_id": "69643159b51c8eed7342064a5bd707faefcf5b64bb59184a693d9f3075f9fc0a",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.119902Z"
+  },
+  {
+   "row_hash": "5dbb4dfdc4c53b10f7fab4d5dad77973891064e4ecb79bdd0bf7b85abdead549",
+   "case_id": "5a3a555cd78cef5d04bc23724d87e0e5b7bf00d56c85c3fad71621813936d9f9",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.118674Z"
+  },
+  {
+   "row_hash": "689558af67e6bba07269684d63509c882f382d55a4cd8692d7622499b8b5f7ec",
+   "case_id": "876b99613a1825613bcf3a3869bed29f4e4e72670faa1916c6b07bc431264152",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.117139Z"
+  },
+  {
+   "row_hash": "08079d2e18bf5ff3d824cc32019f0e9e67ae183d1275828ed5fc0d6def27b467",
+   "case_id": "c525aabf9b359853797d8bcb2805eac1cfcace4c50d28a593b326db4a422a043",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.115663Z"
+  },
+  {
+   "row_hash": "7276316cafd5ca5f58223255864be98df69919c31cb48a921f84ee0aebfac7df",
+   "case_id": "3e8894768950021633b799310e5dee634efb695e7447d5580782df9ca1f97249",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.114339Z"
+  },
+  {
+   "row_hash": "4dc4884a9b23af43cded82d6847e547fadb7fea2df15717908d98d34aa18abe8",
+   "case_id": "680938d0ad4388aea9e735ba831322f62bc3e72f00c88949c05df58cf1d2a291",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.113028Z"
+  },
+  {
+   "row_hash": "e10363ff51a032695d27d15cc42c597d3503347d6386edf7e9a22cf0cc265998",
+   "case_id": "0feeb3234c6723145a2a6d56f5b6ae79b3c9e802c4c2669c5a2f7654436e670f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.111904Z"
+  },
+  {
+   "row_hash": "d66c9a7874d20ad50f7079c4f28d83030d31ef1537c8b21c243bc06e4915570d",
+   "case_id": "336ada88e22d6fb921e0d9c1ddb7d687a209ac2b3b52526dd1448242c150381a",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.110854Z"
+  },
+  {
+   "row_hash": "a92b79373fc3d5d346848e221deee153189194eae22c5db532373ed33c38e9fb",
+   "case_id": "c4a16503a6bd4941b67e545011d938cf7ac29987b6a8e1afd9db7e4137a48548",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.109718Z"
+  },
+  {
+   "row_hash": "1ca82cda57188c10890f79036131fd1b7af304ffe2768d269ddad434149237c2",
+   "case_id": "dabdfe9c76c230224366a82c8aba6e95457c04c2ca6f57e414012b331cff32e2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.108474Z"
+  },
+  {
+   "row_hash": "1a836c27df1575c7ff81e3d9783717a81ccf62c5ed1dc301bc62558a53c73f2c",
+   "case_id": "2c7997428542462b7fa7b303a406712dc831b4777beb5f8f099c0126255e60a9",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.107047Z"
+  },
+  {
+   "row_hash": "3818f5f348521dbb7117d1edae64dfb7a282bd8fe5b16be903598ad854f70025",
+   "case_id": "6f6d92fb5a886e656a68593f45b8db18c006383c651350c560c8360e98639355",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.105817Z"
+  },
+  {
+   "row_hash": "0f6bc1516863b0ee2b0723042258e9071e33d400d81f581fc1787743b2806c57",
+   "case_id": "e721640de0fa49cc6e67dce4b65eca6b2da59e56f635e1d390d38e2d83c34562",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.104592Z"
+  },
+  {
+   "row_hash": "af7636ddce0a3c46db016887f94cfc21a845fb6b50e6d73a4f6917dffbb888e5",
+   "case_id": "f95bc6e70422a4662a3c2b11d7b64eaaba568edf17704c40c6dddc6279c7dd1e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.103194Z"
+  },
+  {
+   "row_hash": "c24c77494d1c7c7e5598588b869859e1581cde287e101b962a70ba3599711fe7",
+   "case_id": "999f4c8772a0df47cf4812db86d82364d2cd1af95dade853cfc7332c06bf5b16",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.10188Z"
+  },
+  {
+   "row_hash": "3d447dba6cb1ea12c4ff246f9fde50686fe2e273b963114951d4074fac4363b1",
+   "case_id": "267895bd90e2fbac6998df833623c1348b9173cf2f2ef57c17bb75b3ebad52db",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.100604Z"
+  },
+  {
+   "row_hash": "be2a482478f5855d581158cbab6ec1bd8295ff6cacd0fd3fa7ad91cc37161e47",
+   "case_id": "b242a52f4b247a3108a9f1fc1cce57e819c26fb6c2c73f33fa5cbcc158e1a17c",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.099373Z"
+  },
+  {
+   "row_hash": "87ae3e0c9064e2daa3d29a8fc51fbc4f06009a5f09555e9467309307c320a8f1",
+   "case_id": "938f74d59658e5d1626ee14bd066ca3f372e63ac03ef54e2774a0e43763c059e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.097878Z"
+  },
+  {
+   "row_hash": "304d849cffa7ed6696c6396ef482385a12facdfd9d586a5393adb89be0102029",
+   "case_id": "b1e8add77770b39a35e6ce7836dd757b7cfc7d5ec2793d0b750eb2ccb3991945",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.096641Z"
+  },
+  {
+   "row_hash": "f448962932a2f9823bea8bfd4bccdef6453694d325594fdac7c16c5478a37cd1",
+   "case_id": "bac3a8ea1febcf7483772ed726cc4ce3674cc62bfd10e8dd402a32de53ae4799",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.094191Z"
+  },
+  {
+   "row_hash": "88bc3876d3669a1551561cd0be7d95169cdac59a601c17e4334f8f76bcd7288b",
+   "case_id": "21d199f7bfdfe074870c2fe3b92e480d1c51362f2622e1c804bf8f9fa6c1797d",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.093015Z"
+  },
+  {
+   "row_hash": "f9d6f2f0d6ebaf2eac601400bcc775de111e7815e897db075037bfb6ae4f4329",
+   "case_id": "26ebc9b0caeba2d58b186d454ff9f1b7c72051b3f622bf0bd3e6234ee8d88ca9",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.091692Z"
+  },
+  {
+   "row_hash": "62540d657c5e9962dbcc051ac539c15e0fa6429486eceab47b1f828ffce17028",
+   "case_id": "4153db1b4ae886153bc1bcf3fddd6dcd4144093652d20dccdd51ee7bfa9b6266",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.09032Z"
+  },
+  {
+   "row_hash": "55c260fd1cb067dbf1e43f5a3963d2a50d34ef420d4d191a9f658c75162f92b5",
+   "case_id": "8bdbe22ce65cc77a70a39165c89318a5e150c60d442bc38c76f1adbdaf64912f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.089065Z"
+  },
+  {
+   "row_hash": "03f8f3ffc581038accb1514d7efa4e012dab1cd6b929e551c86077c62f83341b",
+   "case_id": "e0dc88641330d6277763de878501285db0ede9533cd9a2f769c7686adabe3a14",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.087773Z"
+  },
+  {
+   "row_hash": "c2bfdd25fa064d5b0465c12545ce0a408cda5f164e221d41b9b83812049764cb",
+   "case_id": "a286ca561ceb27061e20b63be1be9f2c41e54de17ce3c529cf089e1971c54893",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.086427Z"
+  },
+  {
+   "row_hash": "f7b121bf85ce1881109fec656a85c14e5a616e36ed7ec97b2d5574e5a9f19a90",
+   "case_id": "6206b7c1bd78fcc4cf0db2bd83c794578e3ebde5dfc19902b0fb56a587b8867e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.085135Z"
+  },
+  {
+   "row_hash": "a072f5692d41f4b16709d581e728d14eeeac7c4a6502c6ebf66050dac239a54c",
+   "case_id": "a2c1e2558d38590d3fe953d96e1408c5d2ad3c3e69c15d32c60a9b54f63c8c03",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.083755Z"
+  },
+  {
+   "row_hash": "8032abf2a09aa039e8ddba41b50034a1e1ae49ae17dd5edef1c782d74d3f7747",
+   "case_id": "2e88eaac4c3502fbb55274349e5e9cc31ce292f3400b3f18efd8d410161b0d2e",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.08258Z"
+  },
+  {
+   "row_hash": "d4abceefab7284fac1a93612df9a2b6e18c737eae151dd0daff38a9265c1768d",
+   "case_id": "7741ff6a040dabc26cc3630e10e0263c375b6fe3865664f0f880473236a95f61",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.081252Z"
+  },
+  {
+   "row_hash": "1725bfb787ed75a2c5fd381a674ee8a865e67b2ccd9d7c1dd3a386c6b29ffc85",
+   "case_id": "56f30f794077ea5f6a94d7dac9bf2a95b8d05e75b81301deca55c9c82351d3b4",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.079999Z"
+  },
+  {
+   "row_hash": "b751ecb5a45f31b558202cd92059476569cbf801399de02fd1246aa89f4af95c",
+   "case_id": "bbe6d6b4f5dd498564d7be454c97433cf65b51b16fda5e5dcb68b1a32a677fad",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.078783Z"
+  },
+  {
+   "row_hash": "bcebbb20b304342416118d44d150bf6b83035ae3869931249c519d11a3582237",
+   "case_id": "0a8383d73a160b5650910e3dc49a7342be4f28ce432d3fc29167738c4cb75cfc",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.077477Z"
+  },
+  {
+   "row_hash": "de820841951b1783120bdd96605ececd89d916c43a77dfe3324073207a29f92c",
+   "case_id": "24e751570558f7b66b01283838fc83eb4b9f8953ffb62a332fecf5a185493e25",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.076341Z"
+  },
+  {
+   "row_hash": "bda808baa181e2fd3c95243bd8cf087c16b165c566a63867e221d80541443375",
+   "case_id": "aa8ff55ed561bdcef18f69a7b8a845636f36842b47fd100339ec0af83fbdb467",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.07517Z"
+  },
+  {
+   "row_hash": "fe33bf1ef85fa7cd13484bb4b925f4f143ca94c9da3db3fd7899fa7a2ea6be0a",
+   "case_id": "533c3858179d16b1bdf875dd60b840412f411a27b855cb1e6c6f48b409863c8b",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.074091Z"
+  },
+  {
+   "row_hash": "6756a7f359c780f69c539a992bafb0c063320e7adc032a497fe26daa6b75a946",
+   "case_id": "defa90d3797c2da1784ec28746c4c918e6874c540eb6d3c2c5c699666ebb7b46",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.072914Z"
+  },
+  {
+   "row_hash": "441dc050edb1b30541649ac9bf2c378fc10c6fa282b52e2871d2ac9313b03abd",
+   "case_id": "df476ad1437750afb95a1b49356227b1ae23572f6b7c7e4ebe1a67771d31efa5",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.071792Z"
+  },
+  {
+   "row_hash": "5f8b7c33f77ce808b3db2c7a47321c5886db5a5c2f2241c070ecbeca610c1316",
+   "case_id": "41c34c6ce6cd77622d61827d08252328ee54ea8c2b9672d00908271159bbc05f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.070509Z"
+  },
+  {
+   "row_hash": "548025de23fe0955b97be8f8dc9a63c63146c76113a4346a463f2329ff9c6179",
+   "case_id": "a4dd452c98ca15ec4a5f0a3c17fa7edbd850790728ff8c6a19692468e0bb73e7",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.06944Z"
+  },
+  {
+   "row_hash": "23086c787dcb290c44eda479f23b7ed417a59512211c11b82128f136f3725274",
+   "case_id": "e75ffd97802d3ceb50631b465a1f619f2c565f2f9fb812f346b64faff87ebfe6",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.068366Z"
+  },
+  {
+   "row_hash": "4669952741efcefd36e5d6dcee8e35ce4e5fd09a3dba9edf94c3c5d9d37f7d48",
+   "case_id": "f2ba8fc33fcfb59a1a0e4a7463ba267d3e86d225c623144dfdf24726d155f715",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.06711Z"
+  },
+  {
+   "row_hash": "8bdf10317bf69928f756c1f12358ce3187217131944c4d1b8688adeaf7f9d577",
+   "case_id": "723d1d746f70f78dd41e70417e4850149652917ef3a8430f6aa9debcf58924c2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.065913Z"
+  },
+  {
+   "row_hash": "877ebcff547b3eb7d1227e2608a4688b047ded461c3a4ad0736fa7df213b4df3",
+   "case_id": "763172b44c5b5b2fee0827d07352e37d47ecd6a7b663c46737cf77b1cf476bff",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.064141Z"
+  },
+  {
+   "row_hash": "30c9322d9d1dae43923182440bf61d8b8d854e7f16e4bfa240272b4608be28db",
+   "case_id": "7959fbf4e6b120fc2a1c92302377dcc5307d6727f77a58fd2b0e7e4fb6f00110",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.062264Z"
+  },
+  {
+   "row_hash": "d6c697213d33095d35922ad9eabc801970c27341f4da6e319b779d1c76e7590b",
+   "case_id": "a498141bb22f554f0f0f48ade3df6fcf2bd3d7b3ec714591f9336e9a885c66d8",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.059959Z"
+  },
+  {
+   "row_hash": "718acffb8f6aaa77515f7e0019a4e841cfa54ad0ad46327d2c466cc7844bc2ae",
+   "case_id": "b2a29382e451b5cf8542127a2a2b638af3b2e3ebff2ccb7b9d808b2144693301",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.057402Z"
+  },
+  {
+   "row_hash": "31f6ae619a5e13e1db928fc9e8c8898ab1083937da50adee3b0775c7201094ed",
+   "case_id": "3787b2620ec00b62f332e6f69e7507bd0b9c47728343067d9a26ecfcf8154ca4",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.056159Z"
+  },
+  {
+   "row_hash": "a18b1ccfe28baa0e122a445d2b395b8bb9f9053b9a921737bdc4b546fa24f64a",
+   "case_id": "3fde6a0b2ef739a84cc766527bd699668e37d8c753007eddfabc1b09094242f9",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.054715Z"
+  },
+  {
+   "row_hash": "a010fefc58e75ee4cf6d320089501a97dc30112a1bc420d4228b1df5df20f0a1",
+   "case_id": "1c0f039074bf645395966dbaa14573d8166cf87c4ee188963b94a81ebdb2c0a5",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.05332Z"
+  },
+  {
+   "row_hash": "52e3deed7ec5bd0efae3015255ee53820ccc3f821572b5d346ed0f286949f63d",
+   "case_id": "59450068f79a2e6f88ef00edacb66dc05cb33876633c941fe2560f0f1a190a29",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.052108Z"
+  },
+  {
+   "row_hash": "824532e68dee6f5314216260a434fa015e338e2691985228330583416026d37f",
+   "case_id": "5dbdd8df81c52b263bc6c3ed4e945e79aa5bf45a5d363b1c951bc505e4168a22",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.050806Z"
+  },
+  {
+   "row_hash": "59466efa3b2a94d5937e0122295821b14d0a3109129113a97de3cc8d155675ff",
+   "case_id": "ff566c51e6e5315ab7c7ef3d0b04b89b57cede7948b48917bd92b51ef74400bb",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.049647Z"
+  },
+  {
+   "row_hash": "1867cee512129cf2e9092d4c9c4fb69fa8b45a1b449eeae636bd46f7501703b6",
+   "case_id": "082f47ecff98b0ff1d36b7f71cb413bcd6372b4abc282626863f989152fc3e0f",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.048342Z"
+  },
+  {
+   "row_hash": "32c9546c0d3613aab912c18aef0ac90bff94c51c8af76da33194379fc4808501",
+   "case_id": "83896a1f999cc0d90c4ecceaa6c1fb5b2ca0e18a93e9fbee9813b6883ba7ccff",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.046743Z"
+  },
+  {
+   "row_hash": "56a0c3dccf62dcbe17a3e89c16b21578b666708af033c47851f02adb5b901719",
+   "case_id": "36d96e5a8186df691cf5b793ed8d5b19e6cc97b20fe70afce123862d79de42e7",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.045328Z"
+  },
+  {
+   "row_hash": "ad54dd3eb33da7b720adfe9bae2e4819c9c6639a07ee51119aaf0f7b886d7399",
+   "case_id": "c858268c84347389cc7d021350e9f6fa531b28783e67c8e982bd85a3c3b1f5b2",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.044033Z"
+  },
+  {
+   "row_hash": "b696b71c0a17a7907812a670e2f8315671dfdf259fcbf6059a891575e75b467b",
+   "case_id": "624991d7cd9a4734ad1e9f297995621c79fd48d54c6845561d7421ffea3973d0",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.042225Z"
+  },
+  {
+   "row_hash": "4023ae642f043d643600d2f7159136853025f66257c93716c96e66530d5d0bba",
+   "case_id": "aa2463cfaa0237fea4d9a3690fe6f1f7c5cd411785240f0e38082b7e417dd24d",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.039997Z"
+  },
+  {
+   "row_hash": "a8d613e36fc2e381454ce4bbb55f135f9fe5d16f1b8bd9ba2d3a6490fb21279d",
+   "case_id": "138dde89da1f6245fe96a84e018588c578f863ae6a3f44de77f6f6803e4c9638",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.038318Z"
+  },
+  {
+   "row_hash": "008a42d09d5c1d6da8b1487bb02e0cc905359b09970d4dd61d5a85f374c8a4fd",
+   "case_id": "f0cea26f9aabe0f2543a6fff9d89a70e0a65cf3d23c79818495a8a5323559f3b",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.036658Z"
+  },
+  {
+   "row_hash": "1392423f625dee04b515338d0500c815964ccb82c01ad3af9fc98a83b8e2c3d1",
+   "case_id": "40442e19b1c2276ea36e43c90290a27158ae3860bf56ca614b33c19ba2d07d21",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.034939Z"
+  },
+  {
+   "row_hash": "783f4bb0cf3ddd1e913af0894a783cf514eb898a787a54d37120030e80dc569c",
+   "case_id": "07ea9e59db4ec935a752ff22081c7f6181834ef183b4ac6de5f8cebf414b9e01",
+   "status": "admitted",
+   "reason_code": null,
+   "provenance_class": "attested",
+   "created_at": "2026-11-21T16:08:02.032095Z"
+  }
+ ]
+}

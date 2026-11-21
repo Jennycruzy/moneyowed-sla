@@ -1,0 +1,104 @@
+version: "1"
+kind: miner
+id: 2611217
+slug: moneyowed-sla
+protocol: generic
+name: MONEY OWED Contract SLA Check
+description: >-
+  Contract-scoped SLA compliance for 17 vendors with written uptime commitments: GitHub Enterprise Cloud,
+  Jira, Confluence, Jira Service Management, Bitbucket, Vercel, DigitalOcean, Twilio, Linode, Mailgun, Sanity,
+  Prisma, Mapbox, Buildkite, AWS, Google Cloud and Microsoft Azure. Uptime is computed from the vendor's own
+  public incident history, counting only time the vendor marked a covered service as down (degraded
+  performance and scheduled maintenance excluded), and compared with the target in the vendor's published
+  SLA. Calendar months and quarters match the billing period the SLA uses and also return the service credit
+  owed and the claim deadline. Every answer lists each incident with whether it counted and why.
+base_url: https://moneyowed.38-49-216-59.sslip.io
+
+rate_limit_per_sec: 5
+circuit_threshold: 5
+circuit_cooldown_seconds: 30
+
+docs:
+  website: https://moneyowed.38-49-216-59.sslip.io
+  documentation: https://moneyowed.38-49-216-59.sslip.io/evidence
+
+endpoints:
+  - path: /sla-compliance
+    external_path: /miner/sla
+    method: GET
+    description: >-
+      Whether a named vendor met its published uptime SLA over a past period. Send the vendor (optionally with
+      the covered service, plan and, for AWS, Google Cloud and Azure, the region) as service, and the period as
+      period. Returns uptime_pct, sla_target_pct, compliant, the period measured, downtime minutes, the
+      incidents counted and excluded with reasons, and for whole billing periods the credit percent and
+      claim deadline.
+    intents: [SLA_COMPLIANCE_GENERAL]
+    params:
+      query:
+        required:
+          - name: service
+            type: string
+            intents: ["*"]
+            description: >-
+              Vendor name as written in the question, optionally with service, plan or region, for example
+              "GitHub", "GitHub Actions", "Jira Premium", "Vercel", "DigitalOcean Droplets",
+              "Amazon EC2 us-east-1", "Compute Engine us-central1", "Azure Virtual Machines East US".
+              AWS, Google Cloud and Azure need one service and one region.
+          - name: period
+            type: string
+            intents: ["*"]
+            description: >-
+              Past period, copied from the question: "last 30 days", "last 7 days", "last 24 hours",
+              "last month", "last quarter", "2026-10", "October 2026", "2026-Q3", or
+              "2026-09-01 to 2026-09-30" (both dates included). Up to 400 days back.
+        optional:
+          - name: plan
+            type: string
+            intents: ["*"]
+            description: Plan name when the vendor has several SLAs, for example "premium" or "enterprise". Defaults to the first plan with an SLA.
+
+input_schema:
+  type: object
+  required: [service, period]
+  properties:
+    service:
+      type: string
+      description: Vendor, optionally with service, plan and region.
+    period:
+      type: string
+      description: Past period, e.g. last 30 days, 2026-10, 2026-Q3.
+    plan:
+      type: string
+      description: Optional plan name.
+
+output_schema:
+  type: object
+  required: [service, uptime_pct, sla_target_pct, compliant, period]
+  properties:
+    service: { type: string, description: Service checked, with region when given }
+    uptime_pct: { type: number, description: "Uptime on covered services, percent 0-100" }
+    sla_target_pct: { type: number, description: Uptime target from the vendor's published SLA, percent }
+    compliant: { type: boolean, description: True when uptime_pct is at or above sla_target_pct }
+    period: { type: string, description: Period measured }
+    period_start: { type: string, description: ISO 8601 }
+    period_end: { type: string, description: ISO 8601 }
+    downtime_minutes: { type: number }
+    allowed_downtime_minutes: { type: number }
+    credit_pct: { type: [number, "null"], description: Service credit owed as percent of the period fee; null unless a whole billing period was asked }
+    claim_deadline: { type: [string, "null"] }
+    answer: { type: string, description: One-sentence summary }
+    incidents_counted: { type: integer }
+    incidents: { type: array, description: "Each incident: name, start, end, minutes, counted, reason, url" }
+    sources: { type: object, description: SLA page URL, quoted target sentence, incident history URL }
+    method: { type: string }
+
+errors:
+  message_path: error.message
+  code_path: error.code
+
+semantics:
+  signal_mapping:
+    label_field: compliant
+    reason_field: answer
+  supported_intents:
+    - SLA_COMPLIANCE_GENERAL
