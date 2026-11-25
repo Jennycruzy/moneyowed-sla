@@ -1,0 +1,46 @@
+{
+ "network": "Telegraph testnet (Ethereum Sepolia)",
+ "submitter": "0x2d87B538e3beD8C9c44Df502B3a816D76da09A31",
+ "uploads": [
+  {
+   "at": "2026-11-25T22:16:31.019Z",
+   "intent_id": "SERVER_UPTIME_MONITOR_GENERAL",
+   "body_sha256": "fb7b9fc6e11e6b0f0d77f7baf50d399780f81f18fee7a3fe9c8953c1c8c309a5",
+   "http_status": 200,
+   "node_reply": {
+    "intent_id": "SERVER_UPTIME_MONITOR_GENERAL",
+    "submitter": "0x2d87b538e3bed8c9c44df502b3a816d76da09a31",
+    "signed": true,
+    "received": 160,
+    "accepted": 160,
+    "duplicate": 0,
+    "rejected": 0,
+    "curated": 160,
+    "state_counts": {
+     "admitted": 160,
+     "eligible": 164
+    }
+   }
+  },
+  {
+   "at": "2026-11-25T22:16:32.747Z",
+   "intent_id": "API_HEALTH_CHECK_GENERAL",
+   "body_sha256": "2958917eb2c7b751b9a671bee528cbf936ab453a6749afbbefbd62532f08858e",
+   "http_status": 200,
+   "node_reply": {
+    "intent_id": "API_HEALTH_CHECK_GENERAL",
+    "submitter": "0x2d87b538e3bed8c9c44df502b3a816d76da09a31",
+    "signed": true,
+    "received": 138,
+    "accepted": 138,
+    "duplicate": 0,
+    "rejected": 0,
+    "curated": 138,
+    "state_counts": {
+     "admitted": 138,
+     "eligible": 198
+    }
+   }
+  }
+ ]
+}

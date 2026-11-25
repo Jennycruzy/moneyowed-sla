@@ -1,0 +1,39 @@
+{
+ "SERVER_UPTIME_MONITOR_GENERAL": {
+  "rows": 160,
+  "wrong_answer_kinds": {
+   "abstained_on_a_reachable_address": 31,
+   "down_verdict_contradicts_its_own_status": 30,
+   "client_error_counted_as_down": 29,
+   "answered_a_different_address": 30,
+   "server_error_counted_as_up": 6,
+   "unreachable_given_made_up_figures": 32,
+   "fetched_a_private_address": 2
+  },
+  "shortcuts_right_out_of_rows": {
+   "longer answer wins": 85,
+   "shorter answer wins": 74,
+   "says up wins": 90,
+   "says down wins": 40
+  },
+  "max_prompt_similarity": "under 0.80 (difflib ratio), node rejects at 0.85"
+ },
+ "API_HEALTH_CHECK_GENERAL": {
+  "rows": 138,
+  "wrong_answer_kinds": {
+   "healthy_endpoint_called_slow": 37,
+   "unhealthy_verdict_contradicts_its_own_facts": 19,
+   "problem_reported_as_healthy": 27,
+   "answered_a_different_endpoint": 18,
+   "failing_endpoint_given_made_up_healthy_figures": 32,
+   "fetched_a_private_address": 5
+  },
+  "shortcuts_right_out_of_rows": {
+   "longer answer wins": 81,
+   "shorter answer wins": 57,
+   "says healthy wins": 56,
+   "says not healthy wins": 64
+  },
+  "max_prompt_similarity": "under 0.80 (difflib ratio), node rejects at 0.85"
+ }
+}
